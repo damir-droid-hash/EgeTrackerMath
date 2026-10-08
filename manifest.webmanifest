@@ -1,0 +1,13 @@
+{
+  "name": "ЕГЭ Трекер — Профильная математика",
+  "short_name": "ЕГЭ Трекер",
+  "description": "Трекер подготовки к ЕГЭ по профильной математике с интервальным повторением",
+  "lang": "ru",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0e1113",
+  "theme_color": "#0e1113",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

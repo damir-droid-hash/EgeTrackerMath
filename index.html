@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ЕГЭ Трекер — Профильная математика</title>
+<meta name="description" content="Трекер подготовки к ЕГЭ по профильной математике с интервальным повторением">
+<meta name="theme-color" content="#0e1113">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="ЕГЭ Трекер">
+<link rel="apple-touch-icon" href="icon.svg">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css?v=4">
+</head>
+<body>
+<div id="macwin">
+  <div id="titlebar">
+    <span class="mac-dots"><i class="md r"></i><i class="md y"></i><i class="md g"></i></span>
+    <span class="tb-title">ЕГЭ Трекер · Профильная математика</span>
+    <span class="tb-date" id="tb-date"></span>
+  </div>
+  <div id="winbody">
+    <aside id="sidebar">
+      <div class="logo"><span class="logo-mark">∑</span><span>ЕГЭ Трекер</span></div>
+      <nav>
+        <a href="#/" data-nav>Главная</a>
+        <a href="#/review" data-nav>Повторение</a>
+        <a href="#/tasks" data-nav>Все задания</a>
+        <a href="#/mastered" data-nav>Умею</a>
+        <a href="#/stats" data-nav>Статистика</a>
+        <a href="#/settings" data-nav>Настройки</a>
+      </nav>
+      <div class="side-foot">Профильная математика · сборка damir</div>
+    </aside>
+    <main id="app" aria-live="polite"></main>
+  </div>
+</div>
+<nav id="tabbar" aria-label="Навигация">
+  <a href="#/" data-nav><span class="t-ico">⌂</span><span>Главная</span></a>
+  <a href="#/review" data-nav><span class="t-ico">↻</span><span>Повторение</span></a>
+  <a href="#/tasks" data-nav><span class="t-ico">▤</span><span>Задания</span></a>
+  <a href="#/stats" data-nav><span class="t-ico">◔</span><span>Статистика</span></a>
+  <a href="#/settings" data-nav><span class="t-ico">⚙</span><span>Настройки</span></a>
+</nav>
+<script src="js/db.js?v=4"></script>
+<script src="js/dates.js?v=4"></script>
+<script src="js/store.js?v=4"></script>
+<script src="js/ui.js?v=4"></script>
+<script src="js/pages.js?v=4"></script>
+<script src="js/app.js?v=4"></script>
+</body>
+</html>
